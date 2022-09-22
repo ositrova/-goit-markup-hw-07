@@ -272,6 +272,45 @@ img {
   opacity: 0;
 }
 
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.socials-item .socials-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--bg-grip-cl);
+  background-color: var(--second-txt-cl);
+  border-radius: 50%;
+  -webkit-transition: color var(--animation), background-color var(--animation);
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  color: var(--second-txt-cl);
+  background-color: var(--accent-txt-cl);
+}
+
+.socials-icon {
+  fill: currentColor;
+}
+
 .header {
   background: var(--second-txt-cl);
   color: currentColor;
@@ -545,46 +584,6 @@ img {
   text-align: center;
   color: var(--light-txt-cl);
   margin-bottom: 16px;
-}
-
-/* team icons */
-.socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 10px;
-}
-
-.socials-item .socials-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 44px;
-  height: 44px;
-  color: var(--bg-grip-cl);
-  background-color: var(--second-txt-cl);
-  border-radius: 50%;
-  -webkit-transition: color var(--animation), background-color var(--animation);
-  transition: color var(--animation), background-color var(--animation);
-}
-
-.socials-link:hover,
-.socials-link:focus {
-  color: var(--second-txt-cl);
-  background-color: var(--accent-txt-cl);
-}
-
-.socials-icon {
-  fill: currentColor;
 }
 
 .client-title {
