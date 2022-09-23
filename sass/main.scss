@@ -1,3 +1,6 @@
+// utils styles
+@import "./utils/variables";
+@import "./utils/modern-normalize";
 // base styles
 @import "./base/base";
 @import "./base/card-set";
@@ -19,6 +22,3 @@
 @import "./layouts/mailing-list";
 @import "./layouts/modal-window";
 @import "./layouts/partfolio";
-// utils styles
-@import "./utils/variables";
-@import "./utils/modern-normalize";
